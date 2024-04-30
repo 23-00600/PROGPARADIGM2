@@ -11,7 +11,7 @@ import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
 
-public class Calculator extends Application {
+public class SimpleCalculator extends Application {
      
       @Override
       public void start(Stage stage) {
@@ -86,7 +86,7 @@ public class Calculator extends Application {
    
         //scene
         stage.setScene(scene);
-        stage.setTitle("Calculator");
+        stage.setTitle("Simple Calculator");
         stage.show(); 
   
       }   
